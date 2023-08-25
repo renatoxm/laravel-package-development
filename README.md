@@ -23,6 +23,14 @@ Simple Laravel 10 project used to develop my packages
 - [x] 🤓 Laravel IDE Helper - Generates helper files that enable your IDE to provide accurate autocompletion
 - [x] 📦 Laravel Packager - A cli tool for creating Laravel packages
 
+## Installation
+
+```sh
+composer install
+npm i
+npm run prepare
+```
+
 ## Usefull commands
 
 ### Project creation
