@@ -1,6 +1,6 @@
 # Laravel Pagkage Development Project
 
-Simple Laravel 10 project used to develop my packages
+Simple Laravel 10 project you can use to develop your own packages
 
 ## Stack
 
@@ -22,6 +22,7 @@ Simple Laravel 10 project used to develop my packages
 - [x] 😸 Github CI/CD workflow - Enforcing code formatting on pull requests
 - [x] 🤓 Laravel IDE Helper - Generates helper files that enable your IDE to provide accurate autocompletion
 - [x] 📦 Laravel Packager - A cli tool for creating Laravel packages
+- [x] ⛵ Laravel Sail - A light-weight command-line interface for interacting with Laravel's default Docker development environment
 
 ## Installation
 
@@ -31,24 +32,13 @@ npm i
 npm run prepare
 ```
 
-## Usefull commands
+## Used commands to create this project
 
 ### Project creation
 
 ```sh
 composer create-project laravel/laravel my-app --prefer-dist
-```
-
-### Install Sail
-
-```sh
 php artisan sail:install
-```
-
-### Install Laravel Packager
-
-```sh
-composer require jeroen-g/laravel-packager --dev
 ```
 
 ## License
