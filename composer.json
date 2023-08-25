@@ -72,5 +72,14 @@
     }
   },
   "minimum-stability": "stable",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": {
+    "renatoxm/laravel-vonage-dlr-webhooks": {
+      "type": "path",
+      "url": "/var/www/html/packages/renatoxm/laravel-vonage-dlr-webhooks",
+      "options": {
+        "symlink": true
+      }
+    }
+  }
 }
